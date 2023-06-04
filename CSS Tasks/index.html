@@ -3,100 +3,124 @@
 <head>
   <title>CSS Tasks</title>
   <style>
-    #heading {
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+
+    h1 {
+      color: #333;
       text-align: center;
-      text-decoration: underline;
-      font-size: 40px;
-      font-weight: bold;
-      margin: 25px;
-      font-family: 'Playfair', serif;
+      margin-bottom: 30px;
     }
 
     table {
-      width: 80vw;
-      margin: auto;
+      width: 60%;
       border-collapse: collapse;
-    }
-
-    th {
-      background-color: rgb(81, 255, 246);
-      text-align: left;
-    }
-
-    tr.c-row {
-      background-color: rgb(216, 216, 216);
-      border-color: rgb(216, 216, 216);
+      margin-top: 20px;
     }
 
     th,
     td {
       padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .cntr {
+      text-align: center;
+    }
+
+    th {
+      background-color: #333;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    tr:nth-child(even) {
+      background-color: #c5c5c5;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 4px;
+      background-color: #333;
+      color: #fff;
+      font-size: 14px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .btn:hover {
+      background-color: #555;
     }
   </style>
 </head>
 
 <body>
-  <div id="heading">CSS Tasks</div>
-  <br><br>
-  <table>
-    <tr>
-      <th>Task</th>
-      <th>Link</th>
-    </tr>
-    <tr class="c-row">
-      <td>Task-1</td>
-      <td><a href="Task 1/CSS_Task_1.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr>
-      <td>Task-2</td>
-      <td><a href="Task 2/CSS_Task_2.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr class="c-row">
-      <td>Task-3</td>
-      <td><a href="Task 3/CSS_Task_3.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr>
-      <td>Task-4</td>
-      <td><a href="Task 4/CSS_Task_4.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr class="c-row">
-      <td>Task-5</td>
-      <td><a href="Task 5/CSS_Task_5.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr>
-      <td>Task-6</td>
-      <td><a href="Task 6/CSS_Task_6.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr class="c-row">
-      <td>Task-7</td>
-      <td><a href="Task 7/CSS_Task_7.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr>
-      <td>Task-8</td>
-      <td><a href="Task 8/CSS_Task_8.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr class="c-row">
-      <td>Task-9</td>
-      <td><a href="Task 9/CSS_Task_9.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr>
-      <td>Task-10</td>
-      <td><a href="Task 10/CSS_Task_10.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr class="c-row">
-      <td>Task-11</td>
-      <td><a href="Task 11/CSS_Task_11.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr>
-      <td>Task-12</td>
-      <td><a href="Task 12/CSS_Task_12.html" target="_blank">Click Here</a></td>
-    </tr>
-  </table>
-  <hr>
-  <br>
-  <div style="display: flex; justify-content: center">
-    <a class="custom_back" href="../index.html">Back to Home</a>
-  </div>
+  <h1>CSS Tasks</h1>
+  <center>
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp Task 1</td>
+          <td class="cntr"><a href="Task 1/CSS_Task_1.html" target="_blank" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp Task 2</td>
+          <td class="cntr"><a href="Task 2/CSS_Task_2.html" target="_blank" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp Task 3</td>
+          <td class="cntr"><a href="Task 3/CSS_Task_3.html" target="_blank" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp Task 4</td>
+          <td class="cntr"><a href="Task 4/CSS_Task_4.html" target="_blank" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp Task 5</td>
+          <td class="cntr"><a href="Task 5/CSS_Task_5.html" target="_blank" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp Task 6</td>
+          <td class="cntr"><a href="Task 6/CSS_Task_6.html" target="_blank" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp Task 7</td>
+          <td class="cntr"><a href="Task 7/CSS_Task_7.html" target="_blank" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp Task 8</td>
+          <td class="cntr"><a href="Task 8/CSS_Task_8.html" target="_blank" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp Task 9</td>
+          <td class="cntr"><a href="Task 9/CSS_Task_9.html" target="_blank" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp Task 10</td>
+          <td class="cntr"><a href="Task 10/CSS_Task_10.html" target="_blank" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp Task 11</td>
+          <td class="cntr"><a href="Task 11/CSS_Task_11.html" target="_blank" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp Task 12</td>
+          <td class="cntr"><a href="Task 12/CSS_Task_12.html" target="_blank" class="btn">Click Here</a></td>
+        </tr>
+      </tbody>
+    </table><br>
+    <a class="btn" href="../index.html">Back to Home</a>
+  </center>
 </body>
 
 </html>
