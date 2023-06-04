@@ -3,63 +3,91 @@
 <head>
   <title>Ethnus MERN Tasks</title>
   <style>
-    #heading {
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+
+    h1 {
+      color: #333;
       text-align: center;
-      text-decoration: underline;
-      font-size: 40px;
-      font-weight: bold;
-      margin: 25px;
+      margin-bottom: 30px;
     }
 
     table {
-      width: 80vw;
-      margin: auto;
+      width: 60%;
       border-collapse: collapse;
-    }
-
-    th {
-      background-color: rgb(81, 255, 246);
-      text-align: left;
-    }
-
-    tr.c-row {
-      background-color: rgb(216, 216, 216);
-      border-color: rgb(216, 216, 216);
+      margin-top: 20px;
     }
 
     th,
     td {
       padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .cntr {
+      text-align: center;
+    }
+
+    th {
+      background-color: #333;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    tr:nth-child(even) {
+      background-color: #c5c5c5;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 4px;
+      background-color: #333;
+      color: #fff;
+      font-size: 14px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .btn:hover {
+      background-color: #555;
     }
   </style>
 </head>
 
 <body>
-  <div id="heading">MERN Tasks</div>
-  <br><br>
-  <table>
-    <tr>
-      <th>Task</th>
-      <th>Link</th>
-    </tr>
-    <tr class="c-row">
-      <td>HTML Tasks</td>
-      <td><a href="HTML Tasks/index.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr>
-      <td>CSS Tasks</td>
-      <td><a href="CSS Tasks/index.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr class="c-row">
-      <td>BootStrap Tasks</td>
-      <td><a href="Bootstrap Tasks/index.html" target="_blank">Click Here</a></td>
-    </tr>
-    <tr>
-      <td>JavaScript Tasks</td>
-      <td><a href="Javascript Tasks/index.html" target="_blank">Click Here</a></td>
-    </tr>
-  </table>
-  <hr>
+  <h1>Ethnus MERN Tasks</h1>
+  <center>
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp 1. HTML Task</td>
+          <td class="cntr"><a href="HTML Tasks/index.html" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp 2. CSS Task</td>
+          <td class="cntr"><a href="CSS Tasks/index.html" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp 3. Bootstrap Task</td>
+          <td class="cntr"><a href="Bootstrap Tasks/index.html" class="btn">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp 4. Javascript Task</td>
+          <td class="cntr"><a href="Javascript Tasks/index.html" class="btn">Click Here</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </center>
 </body>
 
 </html>
