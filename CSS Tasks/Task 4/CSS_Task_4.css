@@ -1,0 +1,35 @@
+body {
+    padding-top: 200px;
+    padding-left: 550px;
+}
+
+ul {
+    background-color: #ade4e6;
+    list-style-type: none;
+    margin: 10px 10px 0 10px;
+    padding: 0;
+    width: 200px;
+    height: 190px;
+}
+
+li a {
+    display: block;
+    color: #2f10dc;
+    padding: 8px 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #f2b855;
+    color: #fff;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.box1 {
+    border: 2px solid black;
+    width: 220px;
+}

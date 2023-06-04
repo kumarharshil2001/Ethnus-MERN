@@ -1,0 +1,38 @@
+table {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+p {
+    width: 98%;
+}
+
+.field {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.entry {
+    width: 98%;
+}
+
+.gmale {
+    text-align: left;
+}
+
+textarea {
+    width: 98%;
+}
+
+#login {
+    text-align: right;
+}
+
+#reg-btn {
+    margin: 0 auto;
+    text-align: center;
+}

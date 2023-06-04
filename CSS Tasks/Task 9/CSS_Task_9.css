@@ -1,0 +1,16 @@
+.d1 {
+    padding-top: 200px;
+    padding-left: 600px;
+}
+
+.box1 {
+    margin: 10px;
+    border: 3px solid black;
+    width: 250px;
+    height: auto;
+}
+
+p {
+    background-color: #f5cb36fd;
+    margin: 40px
+}

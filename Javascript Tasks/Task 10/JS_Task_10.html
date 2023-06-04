@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Javascript Task 10</title>
+</head>
+
+<body>
+    <script>
+        let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+        console.log("Original array:", arr);
+        console.log("Using concat method:");
+        console.log(arr.concat([10, 11, 12]));
+        console.log("Using copyWithin method:");
+        console.log(arr.copyWithin(0, 3, 6));
+        console.log("Using map method:");
+        console.log(arr.map(x => x * 2));
+        console.log("Using every method:");
+        console.log(arr.every(x => x > 0));
+        console.log("Using some method:");
+        console.log(arr.some(x => x > 0));
+        console.log("Using filter method:");
+        console.log(arr.filter(x => x > 5));
+        console.log("Using find method:");
+        console.log(arr.find(x => x > 5));
+        console.log("Using findIndex method:");
+        console.log(arr.findIndex(x => x > 5));
+        console.log("Using indexOf method:");
+        console.log(arr.indexOf(5));
+        console.log("Using lastIndexOf method:");
+        console.log(arr.lastIndexOf(5));
+        console.log("Using push");
+        arr.push(10);
+        console.log(arr);
+        console.log("Using pop");
+        arr.pop();
+        console.log(arr);
+        console.log("Using shift");
+        arr.shift();
+        console.log(arr);
+    </script>
+</body>
+
+</html>
